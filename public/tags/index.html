@@ -61,12 +61,29 @@
     </div>
 </header><main class="main">
                 <div class="container"><div class="page archive"><h2 class="single-title animate__animated animate__pulse animate__faster">所有标签</h2><div class="tag-cloud-tags"><a href="../tags/aibing/">“AI”，“Bing” <sup>1</sup></a></div></div></div>
-            </main><footer class="footer">
-        <div class="footer-container"><div class="footer-line">由 <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.111.3">Hugo</a> 强力驱动 | 主题 - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.11"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
-                </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2022 - 2023</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="../" target="_blank"></a></span><span class="icp-splitter">&nbsp;|&nbsp;</span><br class="icp-br"/>
-                    <span class="icp">222222</span></div>
-        </div>
-    </footer></div>
+            </main><script
+  id="utteranc"
+  src="https://utteranc.es/client.js"
+  repo="95270w0/sunliag"
+  issue-term="title"
+  theme="github-light"
+  crossorigin="anonymous"
+  async
+></script>
+<script>
+  document.getElementById("theme-toggle").addEventListener("click", () => {
+    const theme = document.body.className.includes("dark")
+      ? "github-light"
+      : "photon-dark";
+    const message = {
+      type: "set-theme",
+      theme: theme,
+    };
+    const utteranc = document.querySelector(".utterances-frame");
+    utteranc.contentWindow.postMessage(message, "https://utteranc.es");
+  });
+</script>
+</div>
 
         <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="回到顶部">
                 <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
