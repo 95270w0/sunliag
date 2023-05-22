@@ -2,6 +2,9 @@
 baseURL = "http://example.org/"
 relativeURLs = true
 
+# 打开评论功能
+comments = true
+
 # [en, zh-cn, fr, ...] 设置默认的语言
 defaultContentLanguage = "zh-cn"
 # 网站语言, 仅在这里 CN 大写
