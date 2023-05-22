@@ -18,11 +18,6 @@ theme = "LoveIt"
 
 [params]
  
-  [params.utteranc]
-    enable = false
-    repo = "95270w0/sunliag"
-    issue-term="title"
-    theme="github-light"
   
 
   # LoveIt 主题版本
