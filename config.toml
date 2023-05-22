@@ -88,6 +88,13 @@ theme = "LoveIt"
  # Footer config
   # 页面底部信息配置
   [params.footer]
+    <script src="https://utteranc.es/client.js"
+        repo="95270w0/sunliag"
+        issue-term="title"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+    </script>
     enable = true
     # Custom content (HTML format is supported)
     # 自定义内容 (支持 HTML 格式)

@@ -18,13 +18,7 @@ lightgallery: true
 toc:
   auto: true
 ---
-<script src="https://utteranc.es/client.js"
-repo="liangyuanpeng/liangyuanpeng.github.io"
-issue-term="title"
-theme="github-light"
-crossorigin="anonymous"
-async>
-</script>
+
 # 一、工具准备
 
 #### 因为new bing不对中国大陆开放，所以要想使用new bing就必须要使用魔法，这里推荐使用Clash
